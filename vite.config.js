@@ -11,6 +11,7 @@ export default defineConfig({
       include: ['src/**/*.js', 'src/**/*.vue', 'src/*.js', 'src/*.vue']
     })
   ],
+  base: '/Vue-Week6-Homework/dist', // repo 名稱
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
